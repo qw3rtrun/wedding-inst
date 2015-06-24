@@ -10,7 +10,7 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js" ></script>
     <script>
         $($.ajax({
-            url: "/instafeed?tag=wedding",
+            url: "/instafeed?tag=ленаитрунов",
             success: function( data ) { $( "#feedroot" ).append( data ); }
         }));
     </script>
@@ -20,13 +20,11 @@
 <div class="nav">
     <div class="container">
         <ul class="pull-left">
-            <li><a href="index.html">Приглашение</a></li>
+            <li><a href="invite.html">Приглашение</a></li>
         </ul>
         <ul class="pull-right">
-            <li><a href="#">1й день</a></li>
-            <li><a href="#">Как не заблудиться</a></li>
+            <li><a href="firstday.html">1й день</a></li>
             <li><a href="secondday.html">2й день</a></li>
-            <li><a href="#">Лав стори</a></li>
             <li><a href="useful.html">Полезная информация</a></li>
         </ul>
     </div>
@@ -49,19 +47,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h3>Как не заблудиться</h3>
+                <h3>Первый день</h3>
                 <p>Наша свадьба на турбазе Егоркины Горки</p>
-                <p><a href="#">Схема проезда к турбазе</a></p>
+                <p><a href="firstday.html">Смотреть фотки</a></p>
             </div>
             <div class="col-md-4">
                 <h3>Второй день</h3>
                 <p>Безбашенные фото</p>
-                <p><a href="#">Схема проезда к бо Чайка</a></p>
+                <p><a href="secondday.html">Смотреть фотки</a></p>
             </div>
             <div class="col-md-4">
-                <h3>Лав стори</h3>
-                <p>Немного фоток из личного архива</p>
-                <p><a href="#">Посмотреть фотки</a></p>
+                <h3>Полезная информация</h3>
+                <p>Адреса, телефоны...</p>
+                <p><a href="useful.html">Вспомнить всё</a></p>
             </div>
         </div>
     </div>

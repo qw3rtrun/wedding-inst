@@ -1,3 +1,7 @@
+.nav {
+ background-color: #fff;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -12,14 +16,16 @@
 
 .jumbotron {
   background-image:url('we!.jpg');
-  height: 500px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:center;
 }
 
 .jumbotron .container {
-  position: relative;
-  top:100px;
+    left: 30px;
+    position: relative;
+    top: -15px;
 }
 
 .jumbotron h1 {
@@ -35,7 +41,7 @@
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .learn-more h3 {
@@ -45,12 +51,14 @@
 }
 
 .learn-more a {
-  color: #00b0ff;
+  color: #fff;
+  text-decoration:underline;
 }
 
 .neighborhood-guides {
-    background-color:#efefef;
+    background-color:#fbf9da;
     border-bottom:1px solid #dbdbdb;
+    padding-bottom: 30px;
 }
 
 
