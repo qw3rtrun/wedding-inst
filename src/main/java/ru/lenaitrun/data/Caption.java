@@ -36,7 +36,7 @@ public class Caption {
     }
 
     public Date getCreatedDate() {
-        return new Date(getCreated_time());
+        return new Date(getCreated_time()*1000);
     }
 
     public From getFrom() {

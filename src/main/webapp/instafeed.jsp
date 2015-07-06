@@ -10,7 +10,7 @@
                     <div style=" background:url('${media.images.standard_resolution.url}'); display:block; height:640px;  position:relative;  width:640px;" />
                 </div>
                 <p style=" margin:8px 0 0 0; padding:0 4px;">
-                    <a href="https://instagram.com/p/0ODEcdDxKD/"
+                    <a href="#"
                         style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;"
                         target="_top">${media.caption.text}</a>
                 </p>
