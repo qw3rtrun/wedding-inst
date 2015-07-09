@@ -7,7 +7,7 @@
         <blockquote style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%;">
             <div style="padding:8px;">
                 <div style=" background:#F8F8F8; line-height:0; text-align:center; width:100%;">
-                    <div style=" background:url('${media.images.standard_resolution.url}'); display:block; height:640px;  position:relative;  width:640px;" />
+                    <div style=" background:url('${media.images.standard_resolution.url}');background-size:cover; display:block; height:640px;  position:relative;  width:640px;" />
                 </div>
                 <p style=" margin:8px 0 0 0; padding:0 4px;">
                     <a href="#"
